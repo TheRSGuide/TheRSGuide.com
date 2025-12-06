@@ -56,7 +56,9 @@ RUN npm ci --omit=dev --ignore-scripts
 
 # Copy built application from builder
 COPY --from=base /app/.next ./.next
-COPY --from=base /app/public ./public
+# Create public directory (Next.js expects it, even if empty)
+# If public directory exists in base, copy it; otherwise create empty directory
+RUN mkdir -p ./public
 COPY --from=base /app/content ./content
 COPY --from=base /app/next.config.mjs ./
 COPY --from=base /app/src ./src
