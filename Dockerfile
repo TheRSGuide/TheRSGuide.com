@@ -13,6 +13,7 @@ COPY package*.json ./
 # Copy config files needed for postinstall script (fumadocs-mdx)
 COPY source.config.ts ./
 COPY tsconfig.json ./
+COPY vite-env.d.ts ./
 
 # Install dependencies
 # postinstall script (fumadocs-mdx) needs source.config.ts which we just copied
@@ -61,6 +62,7 @@ COPY --from=base /app/next.config.mjs ./
 COPY --from=base /app/src ./src
 COPY --from=base /app/source.config.ts ./
 COPY --from=base /app/tsconfig.json ./
+COPY --from=base /app/vite-env.d.ts ./
 COPY --from=base /app/postcss.config.mjs ./
 
 EXPOSE 3000
