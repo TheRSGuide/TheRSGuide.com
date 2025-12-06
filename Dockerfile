@@ -13,17 +13,22 @@ COPY package*.json ./
 # Install dependencies
 RUN npm ci
 
-# Copy the rest of the application
+# Copy the rest of the application (but we'll handle content separately)
 COPY . .
 
 # Initialize and update git submodules
 # This handles the case where Railway clones without submodules
 RUN if [ -d .git ]; then \
-      git submodule update --init --recursive; \
-    elif [ ! -d content ] || [ -z "$(ls -A content)" ]; then \
-      echo "No .git directory and content missing. Fetching submodule content..."; \
-      rm -rf content && \
+      echo "Git repository found. Initializing submodules..."; \
+      git submodule update --init --recursive || true; \
+    fi && \
+    if [ ! -d content ] || [ -z "$(ls -A content 2>/dev/null)" ]; then \
+      echo "Content directory missing or empty. Fetching submodule content from GitHub..."; \
+      rm -rf content; \
       git clone --depth 1 https://github.com/TheRSGuide/TheRSGuide.git content; \
+      echo "Submodule content fetched successfully."; \
+    else \
+      echo "Content directory already exists with files. Skipping submodule fetch."; \
     fi
 
 # Build the application
