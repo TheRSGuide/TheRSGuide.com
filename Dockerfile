@@ -10,7 +10,12 @@ WORKDIR /app
 # Copy package files
 COPY package*.json ./
 
+# Copy config files needed for postinstall script (fumadocs-mdx)
+COPY source.config.ts ./
+COPY tsconfig.json ./
+
 # Install dependencies
+# postinstall script (fumadocs-mdx) needs source.config.ts which we just copied
 RUN npm ci
 
 # Copy the rest of the application (but we'll handle content separately)
