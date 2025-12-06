@@ -10,17 +10,17 @@ WORKDIR /app
 # Copy package files
 COPY package*.json ./
 
-# Copy config files needed for postinstall script (fumadocs-mdx)
-COPY source.config.ts ./
-COPY tsconfig.json ./
-COPY vite-env.d.ts ./
+# Copy only files needed for postinstall (fumadocs-mdx)
+COPY source.config.ts tsconfig.json vite-env.d.ts ./
 
 # Install dependencies
 # postinstall script (fumadocs-mdx) needs source.config.ts which we just copied
 RUN npm ci
 
-# Copy the rest of the application (but we'll handle content separately)
-COPY . .
+# Copy source code and config files needed for build
+COPY src ./src
+COPY next.config.mjs postcss.config.mjs ./
+COPY tsconfig.json ./
 
 # Initialize and update git submodules
 # This handles the case where Railway clones without submodules
@@ -32,9 +32,17 @@ RUN if [ -d .git ]; then \
       echo "Content directory missing or empty. Fetching submodule content from GitHub..."; \
       rm -rf content; \
       git clone --depth 1 https://github.com/TheRSGuide/TheRSGuide.git content; \
-      echo "Submodule content fetched successfully."; \
+      echo "Content submodule fetched successfully."; \
     else \
       echo "Content directory already exists with files. Skipping submodule fetch."; \
+    fi && \
+    if [ ! -d src/mdx_components ] || [ -z "$(ls -A src/mdx_components 2>/dev/null)" ]; then \
+      echo "MDX components directory missing or empty. Fetching submodule from GitHub..."; \
+      rm -rf src/mdx_components; \
+      git clone --depth 1 https://github.com/TheRSGuide/MDX-Component-Lib.git src/mdx_components; \
+      echo "MDX components submodule fetched successfully."; \
+    else \
+      echo "MDX components directory already exists with files. Skipping submodule fetch."; \
     fi
 
 # Build the application
@@ -54,18 +62,12 @@ COPY package*.json ./
 # Skip postinstall script since build already completed in base stage
 RUN npm ci --omit=dev --ignore-scripts
 
-# Copy built application from builder
+# Copy built application and runtime files
 COPY --from=base /app/.next ./.next
-# Create public directory (Next.js expects it, even if empty)
-# If public directory exists in base, copy it; otherwise create empty directory
-RUN mkdir -p ./public
 COPY --from=base /app/content ./content
 COPY --from=base /app/next.config.mjs ./
-COPY --from=base /app/src ./src
-COPY --from=base /app/source.config.ts ./
-COPY --from=base /app/tsconfig.json ./
-COPY --from=base /app/vite-env.d.ts ./
-COPY --from=base /app/postcss.config.mjs ./
+# Create public directory (Next.js expects it, even if empty)
+RUN mkdir -p ./public
 
 EXPOSE 3000
 
