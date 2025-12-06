@@ -29,15 +29,7 @@ The Dockerfile will:
 - If `.git` doesn't exist, it will clone the submodule content directly from GitHub
 - Build your Next.js application
 
-This works automatically - no additional configuration needed.
-
-## Option 3: Prebuild Script Fallback
-
-The `prebuild` script (`scripts/prebuild.js`) has been updated to:
-- Use git submodules if `.git` is available
-- If `.git` is not available but content is missing, it will clone the submodule directly from GitHub
-
-This provides a fallback if the Dockerfile approach doesn't work for some reason.
+This works automatically - no additional configuration needed. Submodules are handled entirely during the Docker build process.
 
 ## Troubleshooting
 
@@ -53,15 +45,12 @@ If you're still getting 404 errors:
 To test the build process locally (simulating Railway):
 
 ```bash
-# Remove .git temporarily to test
-mv .git .git.backup
+# Build using Docker (simulates Railway's build process)
+docker build -t thersguide-test .
 
-# Run the build
-npm run build
-
-# Restore .git
-mv .git.backup .git
+# Or test the submodule handling directly
+docker build --target base -t thersguide-test .
 ```
 
-The prebuild script should automatically fetch the content from GitHub.
+The Dockerfile will automatically handle fetching the submodule content if needed.
 
