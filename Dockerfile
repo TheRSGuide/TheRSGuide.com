@@ -41,9 +41,12 @@ WORKDIR /app
 
 ENV NODE_ENV=production
 
-# Copy package files and install production dependencies only
+# Copy package files
 COPY package*.json ./
-RUN npm ci --omit=dev
+
+# Install production dependencies only
+# Skip postinstall script since build already completed in base stage
+RUN npm ci --omit=dev --ignore-scripts
 
 # Copy built application from builder
 COPY --from=base /app/.next ./.next
@@ -51,9 +54,9 @@ COPY --from=base /app/public ./public
 COPY --from=base /app/content ./content
 COPY --from=base /app/next.config.mjs ./
 COPY --from=base /app/src ./src
+COPY --from=base /app/source.config.ts ./
 COPY --from=base /app/tsconfig.json ./
 COPY --from=base /app/postcss.config.mjs ./
-COPY --from=base /app/source.config.ts ./
 
 EXPOSE 3000
 
