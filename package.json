@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "prebuild": "git submodule update --init --recursive",
+    "prebuild": "node scripts/prebuild.js",
     "build": "next build",
     "dev": "next dev --turbo",
     "start": "next start",
