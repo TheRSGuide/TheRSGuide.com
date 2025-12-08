@@ -47,6 +47,7 @@ RUN npm ci --omit=dev --ignore-scripts
 COPY --from=base /app/.next ./.next
 COPY --from=base /app/content ./content
 COPY --from=base /app/next.config.mjs ./
+COPY --from=base /app/source.config.ts ./
 RUN mkdir -p ./public
 
 EXPOSE 3000
