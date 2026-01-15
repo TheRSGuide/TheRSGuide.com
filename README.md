@@ -1,45 +1,79 @@
-# thersguide-3.5
+# The RS Guide
 
-This is a Next.js application generated with
-[Create Fumadocs](https://github.com/fuma-nama/fumadocs).
+A comprehensive guide website for RuneScape players, covering everything from beginner basics to endgame content.
 
-Run development server:
+**Live Site:** [thersguide.com](https://thersguide.com)
+**Beta Site:** [beta.thersguide.com](https://beta.thersguide.com)
+
+## About
+
+The RS Guide is designed to help RuneScape players of all experience levels. Whether you're just starting out or looking to optimize your endgame setup, this site provides guides on:
+
+- **Getting Started** - Combat basics, the combat triangle, keybinds, and prayers/curses
+- **Setup** - Client settings, interface layouts, and recommended configurations
+- **Progression Guides** - Early, mid, and late-game quest and unlock paths
+- **Combat Styles** - Magic, Melee, Ranged, and Necromancy ability guides
+
+## Tech Stack
+
+- [Next.js 15](https://nextjs.org/) - React framework
+- [Fumadocs](https://fumadocs.dev/) - Documentation framework
+- [MDX](https://mdxjs.com/) - Markdown with JSX components
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+
+## Development
+
+### Prerequisites
+
+- Node.js 20+
+- npm
+
+### Getting Started
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-pnpm dev
-# or
-yarn dev
 ```
 
-Open http://localhost:3000 with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-## Explore
+### Building for Production
 
-In the project, you can see:
+```bash
+npm run build
+npm start
+```
 
-- `lib/source.ts`: Code for content source adapter, [`loader()`](https://fumadocs.dev/docs/headless/source-api) provides the interface to access your content.
-- `lib/layout.shared.tsx`: Shared options for layouts, optional but preferred to keep.
+### Docker
 
-| Route                     | Description                                            |
-| ------------------------- | ------------------------------------------------------ |
-| `app/(home)`              | The route group for your landing page and other pages. |
-| `app/docs`                | The documentation layout and pages.                    |
-| `app/api/search/route.ts` | The Route Handler for search.                          |
+```bash
+docker build -t thersguide .
+docker run -p 3000:3000 thersguide
+```
 
-### Fumadocs MDX
+## Project Structure
 
-A `source.config.ts` config file has been included, you can customise different options like frontmatter schema.
+```
+├── content/           # MDX content files
+│   ├── getting-started/
+│   ├── guides/
+│   └── setup/
+├── src/
+│   ├── app/           # Next.js app router pages
+│   └── mdx_components/ # Custom MDX components
+└── source.config.ts   # Fumadocs configuration
+```
 
-Read the [Introduction](https://fumadocs.dev/docs/mdx) for further details.
+## Contributing
 
-## Learn More
+We welcome contributions! See the [content README](content/README.md) for guidelines on contributing to the guides.
 
-To learn more about Next.js and Fumadocs, take a look at the following
-resources:
+- **Online Editor:** [editor.thersguide.com](https://editor.thersguide.com) - Preview and test MDX content
+- **Discord:** [discord.gg/thersguy](https://discord.gg/thersguy) - Get help and discuss contributions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
-  features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [Fumadocs](https://fumadocs.dev) - learn about Fumadocs
+## License
+
+All rights reserved.
