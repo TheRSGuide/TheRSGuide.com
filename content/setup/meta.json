@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "index",
+    "client-setup",
+    "gamemodes",
+    "interface-setup",
+    "chatbox",
+    "map",
+    "action-bar",
+    "buff-bar",
+    "recommended-settings",
+    "runescape-wiki",
+    "glossary"
+  ]
+}

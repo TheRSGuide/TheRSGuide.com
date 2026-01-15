@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "index",
+    "combat-mode",
+    "action-bar",
+    "action-bar-binding",
+    "combat-xp",
+    "choose-option-menu",
+    "targetting",
+    "hitsplats"
+  ]
+}

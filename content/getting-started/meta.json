@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "index",
+    "keybinds",
+    "combat-basics",
+    "damage",
+    "necromancy",
+    "magic",
+    "melee",
+    "ranged",
+    "combat-triangle",
+    "prayers-curses",
+    "combat-options"
+  ]
+}

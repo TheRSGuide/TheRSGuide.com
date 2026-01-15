@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "index",
+    "gear-recommendations",
+    "early-game",
+    "mid-game",
+    "late-game",
+    "necromancy",
+    "melee",
+    "magic",
+    "range"
+  ]
+}

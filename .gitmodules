@@ -1,6 +1,0 @@
-[submodule "content"]
-	path = content
-	url = https://github.com/TheRSGuide/TheRSGuide.git
-[submodule "src/mdx_components"]
-	path = src/mdx_components
-	url = https://github.com/TheRSGuide/MDX-Component-Lib.git
