@@ -1,0 +1,15 @@
+{
+  "appName": "TheRSGuide",
+  "description": "Alt1 Link for Leagues Day 1 Guide",
+  "appUrl": "/alt1",
+  "configUrl": "./appconfig.json",
+  "iconUrl": "./images/favicon/favicon-16x16.png",
+  "defaultWidth": 600,
+  "defaultHeight": 1000,
+  "minWidth": 5,
+  "maxWidth": 1600,
+  "maxHeight": 1000,
+  "requestHandlers": [],
+  "activators": [],
+  "permissions": "overlay"
+}
