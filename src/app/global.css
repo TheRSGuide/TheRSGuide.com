@@ -1,3 +1,393 @@
 @import 'tailwindcss';
 @import 'fumadocs-ui/css/neutral.css';
 @import 'fumadocs-ui/css/preset.css';
+
+/* ================================
+   FUMADOCS THEME OVERRIDES
+   ================================ */
+
+@theme {
+  /* Light mode - warm parchment */
+  --color-fd-background: #e4dbce;
+  --color-fd-foreground: #2a2520;
+  --color-fd-muted: #d9cebf;
+  --color-fd-muted-foreground: #6b5f52;
+  --color-fd-popover: #ddd3c4;
+  --color-fd-popover-foreground: #2a2520;
+  --color-fd-card: #ddd3c4;
+  --color-fd-card-foreground: #2a2520;
+  --color-fd-border: #c4b8a6;
+  --color-fd-primary: #996f1e;
+  --color-fd-primary-foreground: #f5f0e8;
+  --color-fd-secondary: #d9cebf;
+  --color-fd-secondary-foreground: #2a2520;
+  --color-fd-accent: #d1c4b2;
+  --color-fd-accent-foreground: #2a2520;
+  --color-fd-ring: #996f1e;
+}
+
+.dark {
+  --color-fd-background: #0a0908;
+  --color-fd-foreground: #e8dcc4;
+  --color-fd-muted: #1a1510;
+  --color-fd-muted-foreground: #6b5c4a;
+  --color-fd-popover: #141210;
+  --color-fd-popover-foreground: #e8dcc4;
+  --color-fd-card: #141210;
+  --color-fd-card-foreground: #e8dcc4;
+  --color-fd-border: #2d2620;
+  --color-fd-primary: #c9a227;
+  --color-fd-primary-foreground: #0a0908;
+  --color-fd-secondary: #1a1510;
+  --color-fd-secondary-foreground: #e8dcc4;
+  --color-fd-accent: #1f1a14;
+  --color-fd-accent-foreground: #e8dcc4;
+  --color-fd-ring: #c9a227;
+}
+
+/* ================================
+   CUSTOM THEME VARIABLES
+   ================================ */
+
+:root {
+  /* Gold accent */
+  --gold: #996f1e;
+  --gold-hover: #7a5918;
+
+  /* Light mode */
+  --bg-base: #e4dbce;
+  --bg-warm: #d9cebf;
+  --bg-card: rgba(150, 130, 100, 0.06);
+
+  --text-primary: #2a2520;
+  --text-secondary: #4a423a;
+  --text-muted: #6b5f52;
+
+  --border-subtle: rgba(60, 50, 40, 0.25);
+  --border-hover: rgba(60, 50, 40, 0.45);
+  --ornament: rgba(153, 111, 30, 0.4);
+}
+
+:is(.dark) {
+  --gold: #c9a227;
+  --gold-hover: #a6861f;
+
+  --bg-base: #0a0908;
+  --bg-warm: #1a1510;
+  --bg-card: rgba(201, 162, 39, 0.03);
+
+  --text-primary: #e8dcc4;
+  --text-secondary: #a69882;
+  --text-muted: #6b5c4a;
+
+  --border-subtle: rgba(107, 92, 74, 0.2);
+  --border-hover: rgba(107, 92, 74, 0.4);
+  --ornament: rgba(201, 162, 39, 0.4);
+}
+
+/* Cinzel for all headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+}
+
+/* ================================
+   HOMEPAGE BACKGROUNDS
+   ================================ */
+
+.homepage-gradient {
+  background: radial-gradient(ellipse at top, #d9cebf 0%, #e4dbce 70%);
+}
+
+.homepage-vignette {
+  background: radial-gradient(circle at center, transparent 0%, #e4dbce 90%);
+}
+
+:is(.dark) .homepage-gradient {
+  background: radial-gradient(ellipse at top, #1a1510 0%, #0a0908 70%);
+}
+
+:is(.dark) .homepage-vignette {
+  background: radial-gradient(circle at center, transparent 0%, #0a0908 90%);
+}
+
+/* ================================
+   ANIMATIONS
+   ================================ */
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out forwards;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease-out forwards;
+}
+
+.animation-delay-100 {
+  animation-delay: 0.1s;
+  opacity: 0;
+}
+
+.animation-delay-200 {
+  animation-delay: 0.2s;
+  opacity: 0;
+}
+
+.animation-delay-300 {
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+
+.animation-delay-400 {
+  animation-delay: 0.4s;
+  opacity: 0;
+}
+
+/* ================================
+   COMBAT CARDS
+   ================================ */
+
+.combat-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  background: transparent;
+  border: 1px solid var(--border-subtle);
+  overflow: hidden;
+}
+
+.combat-card:hover {
+  border-color: var(--border-hover);
+  transform: translateY(-2px);
+}
+
+.combat-card-icon {
+  color: var(--text-muted);
+}
+
+.combat-card:hover .combat-card-icon {
+  color: var(--text-secondary);
+}
+
+.combat-card-label {
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+}
+
+.combat-card:hover .combat-card-label {
+  color: var(--text-secondary);
+}
+
+/* ================================
+   DOC CARDS
+   ================================ */
+
+.doc-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+}
+
+.doc-card:hover {
+  border-color: var(--border-hover);
+}
+
+.doc-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 1rem;
+  color: var(--gold);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+}
+
+.doc-card-title {
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.doc-card-desc {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  flex: 1;
+}
+
+.doc-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.7;
+}
+
+.doc-card:hover .doc-card-link {
+  opacity: 1;
+}
+
+/* ================================
+   LEGACY STYLES (for other pages)
+   ================================ */
+
+.grain {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.025;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Docs nav link */
+.docs-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid hsl(var(--border));
+  transition: color 0.15s;
+}
+
+.docs-link:last-child {
+  border-bottom: none;
+}
+
+.docs-link:hover {
+  color: var(--gold);
+}
+
+.docs-link:hover .docs-link-arrow {
+  transform: translateX(4px);
+  opacity: 1;
+}
+
+.docs-link-arrow {
+  margin-left: auto;
+  opacity: 0;
+  transition: transform 0.15s, opacity 0.15s;
+}
+
+/* Quick link pill */
+.quick-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: hsl(var(--secondary));
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+
+.quick-pill:hover {
+  background: hsl(var(--accent));
+}
+
+/* Combat tag - legacy for other pages */
+.combat-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: transform 0.1s;
+}
+
+.combat-tag:hover {
+  transform: scale(1.05);
+}
+
+.combat-tag.melee {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.combat-tag.ranged {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.combat-tag.magic {
+  background: #ede9fe;
+  color: #6d28d9;
+}
+
+.combat-tag.necro {
+  background: #cffafe;
+  color: #0e7490;
+}
+
+:is(.dark) .combat-tag.melee {
+  background: rgba(239, 68, 68, 0.15);
+  color: #fca5a5;
+}
+
+:is(.dark) .combat-tag.ranged {
+  background: rgba(34, 197, 94, 0.15);
+  color: #86efac;
+}
+
+:is(.dark) .combat-tag.magic {
+  background: rgba(139, 92, 246, 0.15);
+  color: #c4b5fd;
+}
+
+:is(.dark) .combat-tag.necro {
+  background: rgba(6, 182, 212, 0.15);
+  color: #67e8f9;
+}
+
+/* Version badge */
+.version-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.625rem;
+  background: hsl(var(--muted));
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  font-family: ui-monospace, monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}

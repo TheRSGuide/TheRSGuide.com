@@ -2,6 +2,13 @@ import defaultMdxComponents from 'fumadocs-ui/mdx';
 import type { MDXComponents } from 'mdx/types';
 import { ImageZoom } from 'fumadocs-ui/components/image-zoom';
 import { SplitContent, SplitItem, Center } from './components/split-content';
+import { YouTubeEmbed } from './components/youtube-embed';
+import { Steps, Step } from './components/steps';
+import { InteractiveLegend } from './components/interactive-legend';
+import { PlayerSearch } from './components/player-search';
+import { QuestRequirements } from './components/quest-requirements';
+import { SkillTrainingLookup } from './components/skill-training-lookup';
+import { InteractiveMapMarker } from './components/interactive-map-marker';
 
 // use this function to get MDX components, you will need it for rendering MDX
 export function getMDXComponents(components?: MDXComponents): MDXComponents {
@@ -14,6 +21,14 @@ export function getMDXComponents(components?: MDXComponents): MDXComponents {
     SplitContent,
     SplitItem,
     Center,
+    YouTubeEmbed,
+    Steps,
+    Step,
+    InteractiveLegend,
+    PlayerSearch,
+    QuestRequirements,
+    SkillTrainingLookup,
+    InteractiveMapMarker,
     ...components,
   };
 }

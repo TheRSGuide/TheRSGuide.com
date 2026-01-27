@@ -1,15 +1,29 @@
 ---
 title: Prifddinas
-description: Guide to the city of Prifddinas
+description: The elven city hub for mid and high-level players
 ---
 
-Prifddinas
 
-## Prifddinas?
+Prifddinas is an elven city that acts as a hub for mid- and high-level players. You will find a variety of skilling areas, useful transportation options, and centralized access to beneficial tools (altars/summoning obelisks/etc). Prifddinas is unlocked after completing the quest Plague's End.
 
-Discover the elven city of Prifddinas.
+## Requirements (Plague's End)
 
-<Cards>
-  <Card title="Learn more about RuneScape" href="https://runescape.wiki" />
-  <Card title="Official RuneScape Website" href="https://www.runescape.com" />
-</Cards>
+<PlayerSearch />
+
+<QuestRequirements
+  skills={[
+    { skill: "Agility", level: 75 },
+    { skill: "Construction", level: 75 },
+    { skill: "Crafting", level: 75 },
+    { skill: "Dungeoneering", level: 75 },
+    { skill: "Herblore", level: 75 },
+    { skill: "Mining", level: 75 },
+    { skill: "Prayer", level: 75 },
+    { skill: "Ranged", level: 75 },
+    { skill: "Summoning", level: 75 },
+    { skill: "Woodcutting", level: 75 }
+  ]}
+  quests={["Within the Light", "Catapult Construction", "Making History"]}
+/>
+
+<Card title="Plague's End on RS Wiki" href="https://runescape.wiki/w/Plague%27s_End" />

@@ -2,6 +2,7 @@
   "pages": [
     "index",
     "keybinds",
+    "tick-system",
     "combat-basics",
     "damage",
     "necromancy",

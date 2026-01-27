@@ -1,0 +1,1510 @@
+{
+  "agility": [
+    {
+      "start": 1,
+      "end": 30,
+      "desc": "Jumping the bridge outside the Nature Grotto",
+      "link": "https://runescape.wiki/w/Agility_training"
+    },
+    {
+      "start": 30,
+      "end": 50,
+      "desc": "Northern Anachronia Agility Course",
+      "link": "https://runescape.wiki/w/Agility_training"
+    },
+    {
+      "start": 50,
+      "end": 52,
+      "desc": "Southern Anachronia Agility Course",
+      "link": "https://runescape.wiki/w/Agility_training"
+    },
+    {
+      "start": 52,
+      "end": 65,
+      "desc": "Wilderness Agility Course with Demonic Skull",
+      "link": "https://runescape.wiki/w/Agility_training"
+    },
+    {
+      "start": 65,
+      "end": 80,
+      "desc": "Continue Wilderness Agility Course OR AFK Manual Auto-cycles in the Empty Throne Room",
+      "link": "https://runescape.wiki/w/Agility_training"
+    },
+    {
+      "start": 80,
+      "end": 99,
+      "desc": "Island-wide Anachronia Agility Course",
+      "link": "https://runescape.wiki/w/Agility_training"
+    }
+  ],
+  "archaeology": [
+    {
+      "start": 1,
+      "end": 4,
+      "desc": "Campus - Centurion Remains",
+      "link": "https://runescape.wiki/w/Centurion_remains"
+    },
+    {
+      "start": 5,
+      "end": 16,
+      "desc": "Kharid-et - Venator Remains",
+      "link": "https://runescape.wiki/w/Venator_remains"
+    },
+    {
+      "start": 17,
+      "end": 19,
+      "desc": "Kharid-et - Castra Debris",
+      "link": "https://runescape.wiki/w/Castra_debris"
+    },
+    {
+      "start": 20,
+      "end": 41,
+      "desc": "Infernal Source - Lodge Bar Storage",
+      "link": "https://runescape.wiki/w/Lodge_bar_storage"
+    },
+    {
+      "start": 42,
+      "end": 44,
+      "desc": "Everlight - Prodromoi Remains",
+      "link": "https://runescape.wiki/w/Prodromoi_remains"
+    },
+    {
+      "start": 45,
+      "end": 46,
+      "desc": "Infernal Source - Dis dungeon debris",
+      "link": "https://runescape.wiki/w/Dis_dungeon_debris"
+    },
+    {
+      "start": 47,
+      "end": 47,
+      "desc": "Kharid-et - Praesidio Remains",
+      "link": "https://runescape.wiki/w/Praesidio_remains"
+    },
+    {
+      "start": 48,
+      "end": 55,
+      "desc": "Everlight - Monoceros Remains",
+      "link": "https://runescape.wiki/w/Monoceros_remains"
+    },
+    {
+      "start": 56,
+      "end": 60,
+      "desc": "Everlight - Ceramic Studio Debris",
+      "link": "https://runescape.wiki/w/Ceramic_studio_debris"
+    },
+    {
+      "start": 61,
+      "end": 67,
+      "desc": "Everlight - Stadio Debris",
+      "link": "https://runescape.wiki/w/Stadio_debris"
+    },
+    {
+      "start": 68,
+      "end": 68,
+      "desc": "Infernal Source - Shakroth Remains",
+      "link": "https://runescape.wiki/w/Shakroth_remains"
+    },
+    {
+      "start": 69,
+      "end": 69,
+      "desc": "Everlight - Dominion Games Podium",
+      "link": "https://runescape.wiki/w/Dominion_games_podium"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "desc": "Stormguard Citadel - Ikovian Memorial",
+      "link": "https://runescape.wiki/w/Ikovian_memorial"
+    },
+    {
+      "start": 81,
+      "end": 84,
+      "desc": "Warforge - Crucible Stands Debris",
+      "link": "https://runescape.wiki/w/Crucible_stands_debris"
+    },
+    {
+      "start": 83,
+      "end": 94,
+      "desc": "Green Gobbo Goodies I - Tetracompass log",
+      "link": "https://runescape.wiki/w/Green_Gobbo_Goodies_I"
+    },
+    {
+      "start": 85,
+      "end": 85,
+      "desc": "Stormguard Citadel - Weapons Research Debris",
+      "link": "https://runescape.wiki/w/Weapons_research_debris"
+    },
+    {
+      "start": 86,
+      "end": 88,
+      "desc": "Kharid-et - Orcus Alter",
+      "link": "https://runescape.wiki/w/Orcus_alter"
+    },
+    {
+      "start": 89,
+      "end": 89,
+      "desc": "Warforge - Big High War God Shrine",
+      "link": "https://runescape.wiki/w/Big_high_war_god_shrine"
+    },
+    {
+      "start": 90,
+      "end": 92,
+      "desc": "Orthen - Varanasaur Remains",
+      "link": "https://runescape.wiki/w/Varanasaur_remains"
+    },
+    {
+      "start": 93,
+      "end": 94,
+      "desc": "Kharid-et - Armarium Debris",
+      "link": "https://runescape.wiki/w/Armarium_debris"
+    },
+    {
+      "start": 94,
+      "end": 97,
+      "desc": "Red Rum Relics I - Tetracompass log",
+      "link": "https://runescape.wiki/w/Red_Rum_Relics_I"
+    },
+    {
+      "start": 95,
+      "end": 95,
+      "desc": "Stormguard Citadel - Keshik Tower Debris",
+      "link": "https://runescape.wiki/w/Keshik_tower_debris"
+    },
+    {
+      "start": 96,
+      "end": 97,
+      "desc": "Orthen - Dragonkin Reliquary",
+      "link": "https://runescape.wiki/w/Dragonkin_reliquary"
+    },
+    {
+      "start": 98,
+      "end": 98,
+      "desc": "Orthen - Dragonkin Coffin",
+      "link": "https://runescape.wiki/w/Dragonkin_coffin"
+    },
+    {
+      "start": 99,
+      "end": 99,
+      "desc": "Everlight - Icyene Weapon Rack",
+      "link": "https://runescape.wiki/w/Icyene_weapon_rack"
+    },
+    {
+      "start": 100,
+      "end": 100,
+      "desc": "Kharid-et - Culinarum Debris, Warforge - Kyzaj Champion's Boudoir",
+      "link": "https://runescape.wiki/w/Culinarum_debris"
+    },
+    {
+      "start": 101,
+      "end": 101,
+      "desc": "Orthen - Autopsy Table",
+      "link": "https://runescape.wiki/w/Autopsy_table"
+    },
+    {
+      "start": 102,
+      "end": 104,
+      "desc": "Orthen - Experiment Workbench",
+      "link": "https://runescape.wiki/w/Experiment_workbench"
+    },
+    {
+      "start": 105,
+      "end": 105,
+      "desc": "Everlight - Stockpiled Art",
+      "link": "https://runescape.wiki/w/Stockpiled_art"
+    },
+    {
+      "start": 106,
+      "end": 106,
+      "desc": "Orthen - Aughra Remains",
+      "link": "https://runescape.wiki/w/Aughra_remains"
+    },
+    {
+      "start": 107,
+      "end": 107,
+      "desc": "Kharid-et - Ancient Magick Munitions",
+      "link": "https://runescape.wiki/w/Ancient_magick_munitions"
+    },
+    {
+      "start": 108,
+      "end": 108,
+      "desc": "Orthen - Moksha Device",
+      "link": "https://runescape.wiki/w/Moksha_device"
+    },
+    {
+      "start": 109,
+      "end": 109,
+      "desc": "Everlight - Bibliothek Debris",
+      "link": "https://runescape.wiki/w/Bibliothek_debris"
+    },
+    {
+      "start": 110,
+      "end": 110,
+      "desc": "Warforge - Warforge Weapon Rack",
+      "link": "https://runescape.wiki/w/Warforge_weapon_rack"
+    },
+    {
+      "start": 111,
+      "end": 111,
+      "desc": "Stormguard Citadel - Flight Research Debris",
+      "link": "https://runescape.wiki/w/Flight_research_debris"
+    },
+    {
+      "start": 112,
+      "end": 112,
+      "desc": "Stormguard Citadel - Aetherium Forge",
+      "link": "https://runescape.wiki/w/Aetherium_forge"
+    },
+    {
+      "start": 113,
+      "end": 113,
+      "desc": "Orthen - Xolo Mine",
+      "link": "https://runescape.wiki/w/Xolo_mine"
+    },
+    {
+      "start": 114,
+      "end": 115,
+      "desc": "Kharid-et - Praetorian Remains",
+      "link": "https://runescape.wiki/w/Praetorian_remains"
+    },
+    {
+      "start": 116,
+      "end": 116,
+      "desc": "Infernal Source - Tsutsaroth Debris",
+      "link": "https://runescape.wiki/w/Tsutsaroth_debris"
+    },
+    {
+      "start": 117,
+      "end": 117,
+      "desc": "Everlight - Optimatoi Remains",
+      "link": "https://runescape.wiki/w/Optimatoi_remains"
+    },
+    {
+      "start": 118,
+      "end": 118,
+      "desc": "Warforge - Makeshift Pie Oven",
+      "link": "https://runescape.wiki/w/Makeshift_pie_oven"
+    },
+    {
+      "start": 119,
+      "end": 119,
+      "desc": "Orthen - Xolo Remains",
+      "link": "https://runescape.wiki/w/Xolo_remains"
+    },
+    {
+      "start": 120,
+      "end": 120,
+      "desc": "Orthen - Saurthen Debris",
+      "link": "https://runescape.wiki/w/Saurthen_debris"
+    }
+  ],
+  "attack": [
+    {
+      "start": 1,
+      "end": 20,
+      "desc": "Troll Chucker in Burthorpe north caves",
+      "link": "https://runescape.wiki/w/Troll_chucker"
+    },
+    {
+      "start": 20,
+      "end": 40,
+      "desc": "Ghost Troll Brutes in Um",
+      "link": "https://runescape.wiki/w/Ghost_troll_brute"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "desc": "Ghoul in Canifis or Fetid Zombie outside Fort Forinthry w/ Salve Amulet",
+      "link": "https://runescape.wiki/w/Ghoul"
+    },
+    {
+      "start": 40,
+      "end": 80,
+      "desc": "Desert Bandits in Bandit Camp w/ 1 piece of Saradomin or Zamorak equipment ",
+      "link": "https://runescape.wiki/w/Bandit_Camp_(Kharidian_Desert)#Training"
+    },
+    {
+      "start": 50,
+      "end": 70,
+      "desc": "Hellhound in Taverly Dungeon or the Wilderness, or Abyssal leech/walker/guardian in the Abyss",
+      "link": "https://runescape.wiki/w/Abyss/Combat_training"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "desc": "Abyssal leech/walker/guardian in the Abyss or Bound Skeletons outside Fort Forinthry w/ Salve Amulet",
+      "link": "https://runescape.wiki/w/Abyss/Combat_training"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "desc": "Ravenous ghoul w/ Vampyric Blood Essence for Aggression, Abyssal leech/walker/guardian in the Abyss or Bound Skeletons outside Fort Forinthry w/ Salve Amulet ",
+      "link": "https://runescape.wiki/w/Ravenous_ghoul"
+    },
+    {
+      "start": 90,
+      "end": 99,
+      "desc": "Abyssal Demon in the Canifis Slayer Tower or the Wilderness, Ravenous ghoul w/ Vampyric Blood Essence for Aggression, Abyssal leech/walker/guardian in the Abyss, or Bound Skeletons outside Fort Forinthry w/ Salve Amulet",
+      "link": "https://runescape.wiki/w/Abyssal_demon"
+    }
+  ],
+  "constitution": [
+    {
+      "start": 1,
+      "end": 24,
+      "desc": "Witch's House Quest",
+      "link": "https://runescape.wiki/w/Witch%27s_House/Quick_guide"
+    },
+        {
+      "start": 24,
+      "end": 99,
+      "desc": "Train through your preferred combat training method"
+    }
+  ],
+  "construction": [
+    {
+      "start": 1,
+      "end": 40,
+      "desc": "Fort Building - Workshop T1 and Wall as part of the New Foundations Quest",
+      "link": "https://runescape.wiki/w/New_Foundations/Quick_guide"
+    },
+    {
+      "start": 40,
+      "end": 45,
+      "desc": "Fort Building - Guardhouse T1",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 45,
+      "end": 50,
+      "desc": "Fort Building - Townhall T2",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 50,
+      "end": 50,
+      "desc": "Fort Building - Grove T1",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 50,
+      "end": 50,
+      "desc": "Fort Building - Grove T2",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 50,
+      "end": 50,
+      "desc": "Fort Building - Ranger's Workroom T1",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 50,
+      "end": 54,
+      "desc": "Fort Building - Kitchen T2",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 54,
+      "end": 55,
+      "desc": "Fort Building - Botanist's Workbench T1",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 55,
+      "end": 60,
+      "desc": "Fort Building - Chapel T2",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 60,
+      "end": 65,
+      "desc": "Fort Building - Grove T3",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 65,
+      "end": 70,
+      "desc": "Fort Building - Ranger's Workroom T2",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 65,
+      "end": 70,
+      "desc": "Fort Building - Guardhouse T2",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 70,
+      "end": 75,
+      "desc": "Fort Building - Command Centre T2",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 75,
+      "end": 78,
+      "desc": "Fort Building - Workshop T3",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 78,
+      "end": 80,
+      "desc": "Fort Building - Botanist's Workbench T2",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 80,
+      "end": 85,
+      "desc": "Fort Building - Townhall T3",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 80,
+      "end": 85,
+      "desc": "Fort Building - Ranger's Workroom T3",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 85,
+      "end": 90,
+      "desc": "Fort Building - Kitchen T3",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 90,
+      "end": 92,
+      "desc": "Fort Building - Chapel T3",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 92,
+      "end": 95,
+      "desc": "Fort Building - Botanist's Workbench T3",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 95,
+      "end": 99,
+      "desc": "Fort Building - Guardhouse T3",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    },
+    {
+      "start": 99,
+      "end": 120,
+      "desc": "Fort Building - Command Centre T3",
+      "link": "https://runescape.wiki/w/Construction_training#Fortress_buildings"
+    }
+  ],
+  "cooking": [
+    {
+      "start": 1,
+      "end": 20,
+      "desc": "Cook Raw Crayfish, fished from Burthorpe",
+      "link": "https://runescape.wiki/w/Raw_crayfish"
+    },
+    {
+      "start": 20,
+      "end": 52,
+      "desc": "Trout and Salmon, fly fished from Lumbridge or Shilo Village",
+      "link": "https://runescape.wiki/w/Raw_trout"
+    },
+    {
+      "start": 32,
+      "end": 80,
+      "desc": "Cheesecakes in the cooking guild after Chef's Assistant quest with the T2 Milky Milky Player Owned Farm Perk",
+      "link": "https://runescape.wiki/w/Cream_cheese"
+    },
+    {
+      "start": 52,
+      "end": 80,
+      "desc": "Menaphos fish - Desert Sole, Catfish, and Beltfish",
+      "link": "https://runescape.wiki/w/Pay-to-play_Fishing_training#Levels_72-93"
+    },
+    {
+      "start": 80,
+      "end": 99,
+      "desc": "Cook Raw Fish from PvM Drops or Fish from Swarm Fishing / Blubber Jellyfish",
+      "link": "https://runescape.wiki/w/Swarm"
+    }
+  ],
+  "crafting": [
+    {
+      "start": 1,
+      "end": 20,
+      "desc": "Cut gems from Common Gem Rocks in Burthorpe, or Spin Flax from Burthorpe, Or make Leather Armour from Cows in Burthorpe",
+      "link": "https://runescape.wiki/w/Common_gem_rock"
+    },
+    {
+      "start": 20,
+      "end": 75,
+      "desc": "Cutting uncommon gems",
+      "link": "https://runescape.wiki/w/Ironman_Mode/Strategies/Crafting#Levels_20-75:_Cutting_uncommon_gems"
+    },
+    {
+      "start": 75,
+      "end": 110,
+      "desc": "Gate of Elidinis Crafting, Harps in Prifddinas, Uncommon Gem Rocks, or Dragon Leather products from PvM Drops",
+      "link": "https://runescape.wiki/w/Pay-to-play_Crafting_training#Gate_of_Elidinis_(skilling_boss)"
+    },
+    {
+      "start": 100,
+      "end": 110,
+      "desc": "Crafting Starbloom Equipment",
+      "link": "https://runescape.wiki/w/Starbloom_equipment#Creation_and_upgrading"
+    }
+  ],
+  "defence": [
+    {
+      "start": 1,
+      "end": 99,
+      "desc": "Train through your preferred combat training method"
+    }
+  ],
+  "divination": [
+    {
+      "start": 1,
+      "end": 99,
+      "desc": "Guthixian Caches",
+      "link": "https://runescape.wiki/w/Ironman_Mode/Strategies/Divination#Levels_1-99"
+    },
+    {
+      "start": 70,
+      "end": 99,
+      "desc": "Dungeoneering Divination",
+      "link": "https://runescape.wiki/w/Divination_training#Dungeoneering_Divination"
+    },
+    {
+      "start": 70,
+      "end": 99,
+      "desc": "Hall of Memories",
+      "link": "https://runescape.wiki/w/Hall_of_Memories"
+    }
+  ],
+  "dungeoneering": [
+    {
+      "start": 1,
+      "end": 120,
+      "desc": "Complete Elite Dungeons and Redeem Tokens for Exp at the Reward Shop. This is not recommended for speed training but will passively grant experience ",
+      "link": "https://runescape.wiki/w/Daemonheim_Rewards"
+    },
+    {
+      "start": 1,
+      "end": 58,
+      "desc": "Small Complexity 1 floors 1-11, Small, Medium, or Large Complexity 6 floors 12-29 ",
+      "link": "https://runescape.wiki/w/Pay-to-play_Dungeoneering_training#Optimising_floors"
+    },
+    {
+      "start": 59,
+      "end": 70,
+      "desc": "Small Complexity 1 floors 1-17, Small Complexity 6 Floors 18-24, Large Complexity 6 Floors 25-35",
+      "link": "https://runescape.wiki/w/Pay-to-play_Dungeoneering_training#Optimising_floors"
+    },
+    {
+      "start": 71,
+      "end": 94,
+      "desc": "Small Complexity 1 floors 1-29, Large Complexity 6 Floors 30-47",
+      "link": "https://runescape.wiki/w/Pay-to-play_Dungeoneering_training#Optimising_floors"
+    },
+    {
+      "start": 95,
+      "end": 120,
+      "desc": "Small Complexity 1 floors 1-35, Large Complexity 6 Floors 36-60",
+      "link": "https://runescape.wiki/w/Pay-to-play_Dungeoneering_training#Optimising_floors"
+    }
+  ],
+  "farming": [
+    {
+      "start": 1,
+      "end": 17,
+      "desc": "Shovelling manure or Violet is Blue Quest",
+      "link": "https://runescape.wiki/w/Manure_mound"
+    },
+    {
+      "start": 17,
+      "end": 54,
+      "desc": "Daily Beehives",
+      "link": "https://runescape.wiki/w/Beehive_(player-owned_farm)"
+    },
+    {
+      "start": 35,
+      "end": 54,
+      "desc": "In addition to Beehives, Player-owned farm beginning with Sheep at level 35, and Cows at level 49 ",
+      "link": "https://runescape.wiki/w/Player-owned_farm"
+    },
+    {
+      "start": 54,
+      "end": 120,
+      "desc": "Player-owned farm, beginning with Chinchompas at level 54 from the Trapper, Spiders at level 64 from the Lumbridge Catacombs, and Dragons from the Trapper or Wilderness Flash Events at level 92.  ",
+      "link": "https://runescape.wiki/w/Player-owned_farm"
+    },
+    {
+      "start": 45,
+      "end": 120,
+      "desc": "Optionally you can gain Exp at an increased Rate by doing Tree Runs as well.  ",
+      "link": "https://runescape.wiki/w/Farming_training#Trees"
+    }
+  ],
+  "firemaking": [
+    {
+      "start": 1,
+      "end": 15,
+      "desc": "Burn logs",
+      "link": "https://runescape.wiki/w/Firemaking_training"
+    },
+    {
+      "start": 15,
+      "end": 30,
+      "desc": "Burn oak logs",
+      "link": "https://runescape.wiki/w/Firemaking_training"
+    },
+    {
+      "start": 30,
+      "end": 45,
+      "desc": "Burn willow logs",
+      "link": "https://runescape.wiki/w/Firemaking_training"
+    },
+    {
+      "start": 45,
+      "end": 60,
+      "desc": "Burn maple logs",
+      "link": "https://runescape.wiki/w/Firemaking_training"
+    },
+    {
+      "start": 60,
+      "end": 75,
+      "desc": "Burn yew logs",
+      "link": "https://runescape.wiki/w/Firemaking_training"
+    },
+    {
+      "start": 75,
+      "end": 87,
+      "desc": "Burn magic logs or corrupted magic logs",
+      "link": "https://runescape.wiki/w/Firemaking_training"
+    },
+    {
+      "start": 76,
+      "end": 95,
+      "desc": "Vyres after River of Blood quest. This is a combat activity that provides experience in Prayer, Combat, and Firemaking",
+      "link": "https://runescape.wiki/w/Vyrewatch/Strategies"
+    },
+    {
+      "start": 87,
+      "end": 95,
+      "desc": "Seggregation Firemaking Activity",
+      "link": "https://runescape.wiki/w/'Accidental'_Fletching_and_Firemaking#Seggregation"
+    },
+    {
+      "start": 95,
+      "end": 110,
+      "desc": "Eggsperimentation Seggregation Firemaking Activity",
+      "link": "https://runescape.wiki/w/'Accidental'_Fletching_and_Firemaking#Eggsperimentation"
+    }
+  ],
+  "fishing": [
+    {
+      "start": 1,
+      "end": 20,
+      "desc": "Catch crayfish in Burthorpe",
+      "link": "https://runescape.wiki/w/Raw_crayfish"
+    },
+    {
+      "start": 20,
+      "end": 54,
+      "desc": "Catch Trout and Salmon in Shilo Village or Lumbridge",
+      "link": "https://runescape.wiki/w/Raw_trout"
+    },
+    {
+      "start": 54,
+      "end": 90,
+      "desc": "Catch Desert Soles, Catfish and Beltfish in Menaphos",
+      "link": "https://runescape.wiki/w/Raw_desert_sole"
+    },
+    {
+      "start": 66,
+      "end": 99,
+      "desc": "Afk Alternative - Catch Ghostly Soles in Um, Optionally use Shark Outfit to Destroy fish for 15 minute AFK. ",
+      "link": "https://runescape.wiki/w/Raw_ghostly_sole"
+    },
+    {
+      "start": 68,
+      "end": 91,
+      "desc": "Green Blubber Jellyfish in the Deep Sea Fishing Hub",
+      "link": "https://runescape.wiki/w/Raw_green_blubber_jellyfish"
+    },
+    {
+      "start": 68,
+      "end": 99,
+      "desc": "Swarm fishing in the Deep Sea Fishing Hub - This is slower but yields useful food for PvM",
+      "link": "https://runescape.wiki/w/Swarm"
+    },
+    {
+      "start": 91,
+      "end": 99,
+      "desc": "Blue Blubber Jellyfish in the Deep Sea Fishing Hub",
+      "link": "https://runescape.wiki/w/Raw_blue_blubber_jellyfish"
+    }
+  ],
+  "fletching": [
+    {
+      "start": 1,
+      "end": 52,
+      "desc": "Make arrow shafts - Optional to stop at 25, but arrow shafts will be needed in abundance later. Higher tier logs yield more arrow shafts per log.",
+      "link": "https://runescape.wiki/w/Pay-to-play_Fletching_training"
+    },
+    {
+      "start": 25,
+      "end": 35,
+      "desc": "Make Oak shieldbows",
+      "link": "https://runescape.wiki/w/Pay-to-play_Fletching_training"
+    },
+    {
+      "start": 35,
+      "end": 40,
+      "desc": "Make Willow shortbows",
+      "link": "https://runescape.wiki/w/Pay-to-play_Fletching_training"
+    },
+    {
+      "start": 40,
+      "end": 45,
+      "desc": "Make Willow shieldbows",
+      "link": "https://runescape.wiki/w/Pay-to-play_Fletching_training"
+    },
+        {
+      "start": 45,
+      "end": 52,
+      "desc": "Make Mithril Arrows with Arrowheads from Smithing",
+      "link": "https://runescape.wiki/w/Mithril_arrowheads"
+    },
+    {
+      "start": 50,
+      "end": 52,
+      "desc": "Maple shortbow",
+      "link": "https://runescape.wiki/w/Pay-to-play_Fletching_training"
+    },
+    {
+      "start": 52,
+      "end": 99,
+      "desc": "Broad arrows, arrowheads are purchased from Slayer Masters at a rate of 9000 per day",
+      "link": "https://runescape.wiki/w/Broad_arrowheads#Shop_locations"
+    },
+        {
+      "start": 82,
+      "end": 99,
+      "desc": "Zygomyte Carestyling on Anachronia - These are part of the process of creating Elder God Arrows",
+      "link": "https://runescape.wiki/w/'Accidental'_Fletching_and_Firemaking#Zygomite_Carestyling"
+    },
+    {
+      "start": 100,
+      "end": 103,
+      "desc": "Martial fletch eternal magic shortbows",
+      "link": "https://runescape.wiki/w/Pay-to-play_Fletching_training"
+    },
+    {
+      "start": 103,
+      "end": 110,
+      "desc": "Martial fletch primal crossbows",
+      "link": "https://runescape.wiki/w/Pay-to-play_Fletching_training"
+    }
+  ],
+  "herblore": [
+    {
+      "start": 1,
+      "end": 91,
+      "desc": "Daily Challenges, Jack of Trades Aura, Herby Werby DnD, Weekly Penguins, and Quest EXP Lamps",
+      "link": "https://runescape.wiki/w/Quests/Experience_rewards#Herblore"
+    },
+    {
+      "start": 81,
+      "end": 91,
+      "desc": "Make Saradomin brew",
+      "link": "https://runescape.wiki/w/Saradomin_brew#Creation"
+    },
+    {
+      "start": 88,
+      "end": 91,
+      "desc": "Make Equal amounts of Extreme Potions, for future use in Overloads.",
+      "link": "https://runescape.wiki/w/Herblore_training"
+    },
+    {
+      "start": 91,
+      "end": 96,
+      "desc": "Make Overloads with a brown spicy stew boost after Evil Dave's Big Day Out Quest - To do this at Level 91 you need to hop worlds every 59 seconds. This is intensive but extremely worthwhile.",
+      "link": "https://runescape.wiki/w/Herblore_training"
+    },
+    {
+      "start": 96,
+      "end": 120,
+      "desc": "As an Ironman, you will now begin making the potions you need. This includes Primal Fruit Pulp, Bombs, Adrenaline boosting Potions, Overloads, Extremes , Super Potions, and Powerbursts.",
+      "link": "https://runescape.wiki/w/Herblore_training"
+    }
+  ],
+  "hunter": [
+    {
+      "start": 1,
+      "end": 30,
+      "desc": "Catch plain whirligigs at Het's Oasis",
+      "link": "https://runescape.wiki/w/Plain_whirligig"
+    },
+    {
+      "start": 30,
+      "end": 50,
+      "desc": "Catch gliding whirligigs - You can do this without losing any flowers by first clicking a plain whirligig, and then doing subsequent clicks on the gliding whirligigs",
+      "link": "https://runescape.wiki/w/Gliding_whirligig"
+    },
+    {
+      "start": 50,
+      "end": 70,
+      "desc": "Catch swift whirligigs - You can do this without losing any flowers by first clicking a plain whirligig, and then doing subsequent clicks on the swift whirligigs",
+      "link": "https://runescape.wiki/w/Swift_whirligig"
+    },
+    {
+      "start": 70,
+      "end": 90,
+      "desc": "Catch hasty whirligigs - You can do this without losing any flowers by first clicking a plain whirligig, and then doing subsequent clicks on the Hasty whirligigs",
+      "link": "https://runescape.wiki/w/Hasty_whirligig"
+    },
+    {
+      "start": 75,
+      "end": 99,
+      "desc": "Optional - Big Game Hunter for Dragon Mattock, Slayer Experience, and Anachronia Totem Pieces",
+      "link": "https://runescape.wiki/w/Big_Game_Hunter/Strategies"
+    },
+    {
+      "start": 90,
+      "end": 99,
+      "desc": "Catch speedy whirligigs You can do this without losing any flowers by first clicking a plain whirligig, and then doing subsequent clicks on the Speedy whirligigs",
+      "link": "https://runescape.wiki/w/Speedy_whirligig"
+    }
+  ],
+  "invention": [
+    {
+      "start": 1,
+      "end": 4,
+      "desc": "Complete Invention tutorial with perfect discoveries or disassemble items",
+      "link": "https://runescape.wiki/w/Invention_training#Early_level_training_(Levels_1-27)"
+    },
+    {
+      "start": 4,
+      "end": 27,
+      "desc": "Research level 5 blueprints, augment and disassemble miscellaneous equipment",
+      "link": "https://runescape.wiki/w/Invention_training#Early_level_training_(Levels_1-27)"
+    },
+    {
+      "start": 27,
+      "end": 120,
+      "desc": "Siphon or disassemble leveled, augmented gear and tools, and complete Invention blueprints as you unlock them. You can also use Invention Potions to unlock higher level blueprints sooner for a boost to experience.",
+      "link": "https://runescape.wiki/w/Invention_training#Early_level_training_(Levels_1-27)"
+    }
+  ],
+  "magic": [
+        {
+      "start": 1,
+      "end": 20,
+      "desc": "Troll Brutes in Burthorpe north caves",
+      "link": "https://runescape.wiki/w/Troll_brute"
+    },
+    {
+      "start": 20,
+      "end": 40,
+      "desc": "Ghost Troll Brutes in Um",
+      "link": "https://runescape.wiki/w/Ghost_troll_brute"
+    },
+    {
+      "start": 40,
+      "end": 70,
+      "desc": "Ghoul in Canifis or Fetid Zombie outside Fort Forinthry w/ Salve Amulet",
+      "link": "https://runescape.wiki/w/Ghoul"
+    },
+    {
+      "start": 40,
+      "end": 80,
+      "desc": "Desert Bandits in Bandit Camp w/ 1 piece of Saradomin or Zamorak equipment - This is slower but very AFK ",
+      "link": "https://runescape.wiki/w/Bandit_Camp_(Kharidian_Desert)#Training"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "desc": "Abyssal leech/walker/guardian in the Abyss - Up to a 50% experience rate boost if you have Corruption Blast unlocked",
+      "link": "https://runescape.wiki/w/Abyss/Combat_training"
+    },
+    {
+      "start": 70,
+      "end": 99,
+      "desc": "K'ril in God Wars Dungeon w/ Fire Spells - Recommendation is to Kite him to extend trips",
+      "link": "https://runescape.wiki/w/K%27ril_Tsutsaroth/Strategies"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "desc": "Ravenous ghoul w/ Any Blood Essence for Aggression, Abyssal leech/walker/guardian in the Abyss or Bound Skeletons outside Fort Forinthry w/ Salve Amulet ",
+      "link": "https://runescape.wiki/w/Ravenous_ghoul"
+    },
+    {
+      "start": 90,
+      "end": 99,
+      "desc": "Abyssal Demons in the Canifis Slayer Tower or the Wilderness, Ravenous ghoul w/ Vampyric Blood Essence for Aggression, Abyssal leech/walker/guardian in the Abyss, or Bound Skeletons outside Fort Forinthry w/ Salve Amulet",
+      "link": "https://runescape.wiki/w/Abyssal_demon"
+    }
+  ],
+  "mining": [
+    {
+      "start": 1,
+      "end": 10,
+      "desc": "Mine copper or tin ore",
+      "link": "https://runescape.wiki/w/Copper_ore#Mine_locations"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "desc": "Mine iron ore",
+      "link": "https://runescape.wiki/w/Iron_ore#Mine_locations"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "desc": "Mine coal",
+      "link": "https://runescape.wiki/w/Coal#Mine_locations"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "desc": "Mine mithril ore",
+      "link": "https://runescape.wiki/w/Mithril_ore#Mine_locations"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "desc": "Mine adamantite or luminite",
+      "link": "https://runescape.wiki/w/Adamantite_ore#Mine_locations"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "desc": "Mine runite ore",
+      "link": "https://runescape.wiki/w/Runite_ore#Mine_locations"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "desc": "Mine orichalcite or drakolith",
+      "link": "https://runescape.wiki/w/Orichalcite_ore#Mine_locations"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "desc": "Mine phasmatite or necrite",
+      "link": "https://runescape.wiki/w/Necrite_ore#Mine_locations"
+    },
+    {
+      "start": 80,
+      "end": 110,
+      "desc": "Mine banite ore",
+      "link": "https://runescape.wiki/w/Banite_ore#Mine_locations"
+    },
+    {
+      "start": 89,
+      "end": 110,
+      "desc": "Mine corrupted ore in Prifddinas - Very afk but less efficient",
+      "link": "https://runescape.wiki/w/Corrupted_ore#Mining"
+    },
+    {
+      "start": 90,
+      "end": 110,
+      "desc": "Mine light animica or dark animica",
+      "link": "https://runescape.wiki/w/Light_animica#Mine_locations"
+    },
+    {
+      "start": 100,
+      "end": 110,
+      "desc": "Mine primal ores",
+      "link": "https://runescape.wiki/w/Ores#Primal_ores"
+    }
+  ],
+  "necromancy": [
+    {
+      "start": 1,
+      "end": 30,
+      "desc": "Kill ghostly troll bruiser or thrower, complete gear upgrades",
+      "link": "https://runescape.wiki/w/Necromancy_training#Levels_1–30"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "desc": "Kill ghostly troll bruiser or thrower, complete Kili's Knowledge I",
+      "link": "https://runescape.wiki/w/Necromancy_training#Levels_30–40"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "desc": "Kill ankous or ghouls, complete Kili's Knowledge II",
+      "link": "https://runescape.wiki/w/Necromancy_training#Levels_40–50"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "desc": "Kill ghouls, shadow warriors, bandits, or fetid zombies",
+      "link": "https://runescape.wiki/w/Necromancy_training#Levels_50–60"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "desc": "Kill armoured zombies, bound skeletons, bloodvelds, or exiled kalphite marauders",
+      "link": "https://runescape.wiki/w/Necromancy_training#Levels_60–70"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "desc": "Kill armoured zombies, bound skeletons, abyssal demons, or exiled kalphite marauders",
+      "link": "https://runescape.wiki/w/Necromancy_training#Levels_70–80"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "desc": "Kill armoured zombies, bound skeletons, abyssal demons, or abyssal savages",
+      "link": "https://runescape.wiki/w/Necromancy_training#Levels_80–90"
+    },
+    {
+      "start": 90,
+      "end": 120,
+      "desc": "Kill ravenous ghouls, abyssal savages, abyssal beasts, or armoured phantoms. Alternatively begin PvMing and train passively",
+      "link": "https://runescape.wiki/w/Necromancy_training#Levels_90–120"
+    },
+    {
+      "start": 90,
+      "end": 99,
+      "desc": "Perform greater necroplasm or powerful rituals with tier III glyphs - This can be especially useful to reach 30,000 souls in order to unlock the Rasial boss",
+      "link": "https://runescape.wiki/w/Necromancy_training"
+    },
+    {
+      "start": 99,
+      "end": 120,
+      "desc": "Perform greater necroplasm or powerful rituals with tier III glyphs - in many cases this can be faster than training via combat, but it is more active.",
+      "link": "https://runescape.wiki/w/Necromancy_training"
+    }
+  ],
+  "prayer": [
+    {
+      "start": 1,
+      "end": 75,
+      "desc": "Offer Bones or Ashes at the Ectofunctus to unlock the First-Age outfit. Once unlocked, proceed to other methods",
+      "link": "https://runescape.wiki/w/Ectofuntus#How_to_worship"
+    },
+    {
+      "start": 1,
+      "end": 75,
+      "desc": "Offer bones at the Chaos Temple or Fort Forinthry tier 3 chapel",
+      "link": "https://runescape.wiki/w/Chaos_Temple_(Wilderness)#Chaos_altar"
+    },
+    {
+      "start": 75,
+      "end": 99,
+      "desc": "Use burial powders with bones at bank - This requires both 90 Hunter and 90 Farming to do, but will yield the fastest EXP rates assuming you have the Bones",
+      "link": "https://runescape.wiki/w/Powder_of_burials"
+    },
+    {
+      "start": 75,
+      "end": 99,
+      "desc": "Cleansing crystals in Prifddinas - This is the best Prayer training method so long as you have sufficient GP, as Cleansing Crystals can be purchased for gp in unlimited supplies.",
+      "link": "https://runescape.wiki/w/Cleansing_crystal"
+    },
+        {
+      "start": 75,
+      "end": 95,
+      "desc": "Vyres after River of Blood quest. This is a combat activity that provides experience in Prayer, Combat, and Firemaking. Very high requirements but is an efficient method of training multiple skills at once.",
+      "link": "https://runescape.wiki/w/Vyrewatch/Strategies"
+    }
+  ],
+  "ranged": [
+       {
+      "start": 1,
+      "end": 20,
+      "desc": "Troll Shamans in Burthorpe north caves",
+      "link": "https://runescape.wiki/w/Troll_shaman"
+    },
+    {
+      "start": 20,
+      "end": 45,
+      "desc": "Ghost Troll Brutes in Um",
+      "link": "https://runescape.wiki/w/Ghost_troll_brute"
+    },
+        {
+      "start": 40,
+      "end": 80,
+      "desc": "Desert Bandits in Bandit Camp w/ 1 piece of Saradomin or Zamorak equipment - Add chinchompas (optional) at level 45 for greater experience rates. ",
+      "link": "https://runescape.wiki/w/Bandit_Camp_(Kharidian_Desert)#Training"
+    },
+    {
+      "start": 45,
+      "end": 60,
+      "desc": "Ghoul in Canifis or Fetid Zombie outside Fort Forinthry w/ Salve Amulet and (optional) chinchompas for greater experience rates",
+      "link": "https://runescape.wiki/w/Ghoul"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "desc": "Abyssal leech/walker/guardian in the Abyss - Up to a 50% experience rate boost if you have Corruption Shot unlocked",
+      "link": "https://runescape.wiki/w/Abyss/Combat_training"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "desc": "Abyssal leech/walker/guardian in the Abyss or Bound Skeletons outside Fort Forinthry w/ Salve Amulet",
+      "link": "https://runescape.wiki/w/Abyss/Combat_training"
+    },
+    {
+      "start": 80,
+      "end": 99,
+      "desc": "Ravenous ghoul w/ Any Blood Essence for Aggression, Abyssal leech/walker/guardian in the Abyss or Bound Skeletons outside Fort Forinthry w/ Salve Amulet ",
+      "link": "https://runescape.wiki/w/Ravenous_ghoul"
+    }
+  ],
+  "runecrafting": [
+    {
+      "start": 1,
+      "end": 60,
+      "desc": "Runespan and RuneSpheres - Runespheres are a daily DnD within the Runespan that rewards a flat 25000 experience per day.",
+      "link": "https://runescape.wiki/w/Runespan#Lower_level"
+    },
+    {
+      "start": 60,
+      "end": 110,
+      "desc": "Craft miasma runes, or any Necromancy runes as needed",
+      "link": "https://runescape.wiki/w/Pay-to-play_Runecrafting_training#Crafting_necrotic_runes"
+    },
+    {
+      "start": 77,
+      "end": 110,
+      "desc": "Runecrafting in the Abyss with a Demonic Skull",
+      "link": "https://runescape.wiki/w/Pay-to-play_Runecrafting_training#Runecrafting_through_the_Abyss"
+    },
+    {
+      "start": 90,
+      "end": 110,
+      "desc": "Craft Soul Runes via the Abyss - This yields the highest experience per Pure Essence, which makes it a very good option for Essence-starved players.",
+      "link": "https://runescape.wiki/w/Pay-to-play_Runecrafting_training#Runecrafting_at_the_soul_altar"
+    },
+    {
+      "start": 100,
+      "end": 110,
+      "desc": "Craft time runes in Abyss",
+      "link": "https://runescape.wiki/w/Pay-to-play_Runecrafting_training#Runecrafting_through_the_Abyss"
+    }
+  ],
+  "slayer": [
+    {
+      "start": 1,
+      "end": 99,
+      "desc": "Do a daily Reaper assignments from Death",
+      "link": "https://runescape.wiki/w/Soul_Reaper#Assignments"
+    },
+    {
+      "start": 35,
+      "end": 120,
+      "desc": "Story Mode Vorkath with a 'Zamouregal's Undead' or 'Blue Dragons' Slayer assignment - Extra Experience can be gained by also using a Scrimshaw of Sacrifice.",
+      "link": "https://runescape.wiki/w/Story_mode#Zemouregal_&_Vorkath"
+    },
+    {
+      "start": 77,
+      "end": 80,
+      "desc": "Obtain the components required to make a Slayer Helmet",
+      "link": "https://thersguide.com/guides/mid-game/slayer-helm"
+    },
+    {
+      "start": 90,
+      "end": 120,
+      "desc": "Train slayer at high level masters that assign tasks you need unique drops from. This could include Creatures of the Lost Grove, Vile Blooms, Nodon Dragonkin, Abyssal Lords, Abyssal Beasts, and Gemstone Dragons",
+      "link": "https://runescape.wiki/w/Slayer_training"
+    }
+  ],
+  "smithing": [
+    {
+      "start": 1,
+      "end": 29,
+      "desc": "Complete The Knight's Sword quest",
+      "link": "https://runescape.wiki/w/The_Knight%27s_Sword/Quick_guide"
+    },
+    {
+      "start": 29,
+      "end": 30,
+      "desc": "Forge steel bars into steel nails",
+      "link": "https://runescape.wiki/w/Pay-to-play_Smithing_training#Levelling_sheets"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "desc": "For AFK Smithing experience, select a Mithril item that only requires 1 bar so you don't need to reheat it. Using this method you can smith a full inventory of items without clicking. Go all the way to Mithril +2.",
+      "link": "https://runescape.wiki/w/Pay-to-play_Smithing_training#Levelling_sheets"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "desc": "Forge Adamant burial sets for increased experience (active) or Burial Adamant Gauntlets (AFK) at the Artisan's Workshop.",
+      "link": "https://runescape.wiki/w/Pay-to-play_Smithing_training#Levelling_sheets"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "desc": "Forge Rune burial sets for increased experience (active) or Burial Rune Gauntlets (AFK) at the Artisan's Workshop.",
+      "link": "https://runescape.wiki/w/Pay-to-play_Smithing_training#Levelling_sheets"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "desc": "Forge Orikalkum burial sets for increased experience (active) or Burial Orikalkum Gauntlets (AFK) at the Artisan's Workshop.",
+      "link": "https://runescape.wiki/w/Pay-to-play_Smithing_training#Levelling_sheets"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "desc": "Forge Necronium burial sets for increased experience (active) or Burial Necronium Gauntlets (AFK) at the Artisan's Workshop.",
+      "link": "https://runescape.wiki/w/Pay-to-play_Smithing_training#Levelling_sheets"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "desc": "Forge bane burial sets for increased experience (active) or Burial Banite Gauntlets (AFK) at the Artisan's Workshop.",
+      "link": "https://runescape.wiki/w/Pay-to-play_Smithing_training#Levelling_sheets"
+    },
+    {
+      "start": 89,
+      "end": 99,
+      "desc": "Forge corrupted ore - Non optimal, but pretty AFK. Additional Corrupted ore can be obtained by using Crystal Keys on the chest in Prifddinas.",
+      "link": "https://runescape.wiki/w/Crystal_chest_(Prifddinas)"
+    },
+    {
+      "start": 90,
+      "end": 100,
+      "desc": "Forge Elder Rune burial sets for increased experience (active) or Burial Elder Rune Gauntlets (AFK) at the Artisan's Workshop.",
+      "link": "https://runescape.wiki/w/Pay-to-play_Smithing_training#Levelling_sheets"
+    },
+    {
+      "start": 100,
+      "end": 110,
+      "desc": "Forge Primal Burial sets for increased experience (active) or Burial Primal Gauntlets (AFK) at the Artisan's Workshop.",
+      "link": "https://runescape.wiki/w/Pay-to-play_Smithing_training#Levelling_sheets"
+    }
+  ],
+  "strength": [
+     {
+      "start": 1,
+      "end": 20,
+      "desc": "Troll Brutes in Burthorpe north caves",
+      "link": "https://runescape.wiki/w/Troll_brute"
+    },
+    {
+      "start": 20,
+      "end": 40,
+      "desc": "Ghost Troll Brutes in Um",
+      "link": "https://runescape.wiki/w/Ghost_troll_brute"
+    },
+    {
+      "start": 40,
+      "end": 60,
+      "desc": "Ghoul in Canifis or Fetid Zombie outside Fort Forinthry w/ Salve Amulet",
+      "link": "https://runescape.wiki/w/Ghoul"
+    },
+    {
+      "start": 40,
+      "end": 80,
+      "desc": "Desert Bandits in Bandit Camp w/ 1 piece of Saradomin or Zamorak equipment ",
+      "link": "https://runescape.wiki/w/Bandit_Camp_(Kharidian_Desert)#Training"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "desc": "Hellhound in Taverly Dungeon or the Wilderness, or Abyssal leech/walker/guardian in the Abyss",
+      "link": "https://runescape.wiki/w/Abyss/Combat_training"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "desc": "Abyssal leech/walker/guardian in the Abyss or Bound Skeletons outside Fort Forinthry w/ Salve Amulet",
+      "link": "https://runescape.wiki/w/Abyss/Combat_training"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "desc": "Ravenous ghoul w/ Any Blood Essence for Aggression, Abyssal leech/walker/guardian in the Abyss or Bound Skeletons outside Fort Forinthry w/ Salve Amulet ",
+      "link": "https://runescape.wiki/w/Ravenous_ghoul"
+    },
+    {
+      "start": 90,
+      "end": 99,
+      "desc": "Abyssal Demon in the Canifis Slayer Tower or the Wilderness, Ravenous ghoul w/ Vampyric Blood Essence for Aggression, Abyssal leech/walker/guardian in the Abyss, or Bound Skeletons outside Fort Forinthry w/ Salve Amulet",
+      "link": "https://runescape.wiki/w/Abyssal_demon"
+    }
+  ],
+  "summoning": [
+    {
+      "start": 1,
+      "end": 4,
+      "desc": "Complete the wolf whistle Quest.",
+      "link": "https://runescape.wiki/w/Wolf_Whistle/Quick_guide"
+    },
+    {
+      "start": 4,
+      "end": 16,
+      "desc": "Make dreadfowl Pouches. Chickens can be killed in Burthorpe and Lumbridge.",
+      "link": "https://runescape.wiki/w/Summoning_training#Maximising_xp/charm,_reasonable_cost_per_pouch"
+    },
+    {
+      "start": 16,
+      "end": 46,
+      "desc": "Make granite crab pouches. Granite can be mined in the Desert.",
+      "link": "https://runescape.wiki/w/Summoning_training#Maximising_xp/charm,_reasonable_cost_per_pouch"
+    },
+    {
+      "start": 46,
+      "end": 49,
+      "desc": "Make pyrelord pouches. Tinderboxes can be purchased from the Firemaking Expert in Seers' Village",
+      "link": "https://runescape.wiki/w/Summoning_training#Maximising_xp/charm,_reasonable_cost_per_pouch"
+    },
+    {
+      "start": 49,
+      "end": 56,
+      "desc": "Make bloated leech pouches - Raw meat can be bought from the shop in Canifis.",
+      "link": "https://runescape.wiki/w/Summoning_training#Maximising_xp/charm,_reasonable_cost_per_pouch"
+    },
+    {
+      "start": 56,
+      "end": 89,
+      "desc": "Make spirit jelly pouches - Jugs of water can be purchased from Shantay in Al Kharid",
+      "link": "https://runescape.wiki/w/Summoning_training#Maximising_xp/charm,_reasonable_cost_per_pouch"
+    },
+    {
+      "start": 66,
+      "end": 74,
+      "desc": "Make mithril minotaurs or stranger plants - Mithril bars can be smelted, bagged plants can be purchased from, the Falador garden.",
+      "link": "https://runescape.wiki/w/Summoning_training#Maximising_xp/charm,_reasonable_cost_per_pouch"
+    },
+    {
+      "start": 74,
+      "end": 86,
+      "desc": "Make granite lobster pouches - Granite can be mined in the desert.",
+      "link": "https://runescape.wiki/w/Summoning_training#Maximising_xp/charm,_reasonable_cost_per_pouch"
+    },
+    {
+      "start": 89,
+      "end": 99,
+      "desc": "Make geyser titan pouches - Water talismans can be obtained from the Arch-Glacor and the Sanctum of Rebirth.",
+      "link": "https://runescape.wiki/w/Summoning_training#Maximising_xp/charm,_reasonable_cost_per_pouch"
+    },
+    {
+      "start": 96,
+      "end": 99,
+      "desc": "Make pack yack pouches - Yak hide can be purchased in Neitiznot",
+      "link": "https://runescape.wiki/w/Summoning_training#Maximising_xp/charm,_reasonable_cost_per_pouch"
+    }
+  ],
+  "thieving": [
+    {
+      "start": 1,
+      "end": 5,
+      "desc": "Pickpocket men and woman in Lumbridge, or Pompous Merchants in Burthorpe",
+      "link": "https://runescape.wiki/w/Thieving_training"
+    },
+    {
+      "start": 5,
+      "end": 15,
+      "desc": "Steal from bakery stalls - This is a good source of early game food.",
+      "link": "https://runescape.wiki/w/Thieving_training"
+    },
+     {
+      "start": 15,
+      "end": 62,
+      "desc": "Pickpocket Gullible Tourists in Menaphos or Pick locks on Thieves' Guild jail doors in the Lumbridge cellar.",
+      "link": "https://runescape.wiki/w/Gullible_tourist"
+    },
+    {
+      "start": 62,
+      "end": 69,
+      "desc": "Safecracking in Misthalin",
+      "link": "https://runescape.wiki/w/Safecracking#Misthalin"
+    },
+     {
+      "start": 69,
+      "end": 76,
+      "desc": "Safecracking in the Kharidian Desert.",
+      "link": "https://runescape.wiki/w/Safecracking#Kharidian_Desert"
+    },
+    {
+      "start": 76,
+      "end": 83,
+      "desc": "Safecracking in Asgarnia",
+      "link": "https://runescape.wiki/w/Safecracking#Asgarnia"
+    },
+    {
+      "start": 83,
+      "end": 99,
+      "desc": "Safecracking in Kandarin",
+      "link": "https://runescape.wiki/w/Safecracking#Kandarin"
+    },
+    {
+      "start": 90,
+      "end": 99,
+      "desc": "Pickpocket Dwarf traders with Sticky Fingers Relic and Pickpocketing Bag",
+      "link": "https://runescape.wiki/w/Trader"
+    },
+    {
+      "start": 90,
+      "end": 99,
+      "desc": "Safecracking Hidden Safes",
+      "link": "https://runescape.wiki/w/Safecracking#Hidden"
+    }
+  ],
+  "woodcutting": [
+    {
+      "start": 1,
+      "end": 10,
+      "desc": "Cut Regular Trees in Lumbridge or Burthorpe",
+      "link": "https://runescape.wiki/w/Pay-to-play_Woodcutting_training"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "desc": "Cut Oak Trees",
+      "link": "https://runescape.wiki/w/Oak#Locations"
+    },
+    {
+      "start": 20,
+      "end": 40,
+      "desc": "Cut Willow Trees in Draynor Village, or Seers' Village",
+      "link": "https://runescape.wiki/w/Willow#Locations"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "desc": "Cut Maple Trees in Seers' Village",
+      "link": "https://runescape.wiki/w/Maple_Tree#Locations"
+    },
+    {
+      "start": 50,
+      "end": 68,
+      "desc": "Cut Acadia Trees in Menaphos",
+      "link": "https://runescape.wiki/w/Acadia_tree#Locations"
+    },
+    {
+      "start": 68,
+      "end": 90,
+      "desc": "Cut ivy (AFK) or continue cutting Acadia Trees",
+      "link": "https://runescape.wiki/w/Pay-to-play_Woodcutting_training"
+    },
+    {
+      "start": 90,
+      "end": 96,
+      "desc": "Cut Elder Trees using the Superior Locator to teleport between locations",
+      "link": "https://runescape.wiki/w/Elder_tree#Locations"
+    },
+    {
+      "start": 96,
+      "end": 110,
+      "desc": "Cut Golden Bamboo on the arc",
+      "link": "https://runescape.wiki/w/Golden_Bamboo_(tree)"
+    },
+    {
+      "start": 100,
+      "end": 110,
+      "desc": "Cut eternal magic trees",
+      "link": "https://runescape.wiki/w/Eternal_magic_tree#Locations"
+    }
+  ]
+}

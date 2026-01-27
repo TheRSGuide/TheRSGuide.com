@@ -1,15 +1,63 @@
 ---
 title: Damage
-description: Understanding damage mechanics in RuneScape
+description: Understanding how damage is calculated in RuneScape combat
 ---
 
-Damage
+## How Damage is Dealt
 
-## Damage?
+This section contains surface level details of how combat works, but we have a more detailed rundown further into this guide to explain all the different combat styles, modes, and some important abilities.
 
-Learn how damage is calculated and applied in combat.
+<SplitContent>
+  <SplitItem width={50}>
+At its very core, you're rolling invisible dice like it's D&D to see how much damage you're going to do to an enemy, as every ability has a damage range. Wrack, for instance, does 90%-110% Magic damage. Additionally, each number in the range has an equal chance to roll, making the middle value the actual average.
+  </SplitItem>
+  <SplitItem width={50}>
+    ![Wrack ability tooltip](https://www.thersguide.com/images/abilities/wrackdetails.jpg)
+  </SplitItem>
+</SplitContent>
 
-<Cards>
-  <Card title="Learn more about RuneScape" href="https://runescape.wiki" />
-  <Card title="Official RuneScape Website" href="https://www.runescape.com" />
-</Cards>
+<SplitContent>
+  <SplitItem width={30}>
+    ![Accuracy tooltip](https://www.thersguide.com/images/gui/accuracy.jpg)
+  </SplitItem>
+  <SplitItem width={70}>
+Your damage potential is related to your accuracy, which can be found in the target information window. If it reads 100%, you're dealing 100% of your potential damage. However, if you're fighting something with a high defence value your accuracy could drop to 80% and you'll have all of your damage reduced by a factor of 0.8.
+  </SplitItem>
+</SplitContent>
+
+There are a few ways to improve your accuracy stat:
+
+1. Increase your combat skill level in the style you're using
+2. Increase the tier of your weapon
+3. Take advantage of monster-specific [weaknesses](/getting-started/combat-triangle#weakness) for a large boost to accuracy
+4. Reduce the defense stat of your target
+5. Utilize player accuracy buffs such as certain auras, prayers, or special attacks
+
+---
+
+## Critical Strikes
+
+<SplitContent>
+  <SplitItem width={50}>
+Critical Strikes are another part of the damage equation that we need to account for.
+
+By default critical strikes multiply your damage by a factor of 1.1 and that damage factor increases with level. Starting at level 10, every subsequent 10 levels you gain will grant you an additional 5% **Critical Damage**.
+
+Every player also has a base **Critical Strike Chance** of 10%. Unlike Critical Damage, this does not increase with level and the only way to modify your critical strike chance is through specific gear effects or ability modifiers.
+  </SplitItem>
+  <SplitItem width={50}>
+
+| Level | Critical Damage |
+|-------|-----------------|
+| 1     | 10%             |
+| 20    | 15%             |
+| 30    | 20%             |
+| 40    | 25%             |
+| 50    | 30%             |
+| 60    | 35%             |
+| 70    | 40%             |
+| 80    | 45%             |
+| 90    | 50%             |
+
+  </SplitItem>
+</SplitContent>
