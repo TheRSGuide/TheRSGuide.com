@@ -5,6 +5,7 @@ import '@fontsource-variable/nunito'
 import '@fontsource-variable/source-serif-4'
 import { AppRouter } from './router'
 import './index.css'
+import './styles/reduced-motion.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

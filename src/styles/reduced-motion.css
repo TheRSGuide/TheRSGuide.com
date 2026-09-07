@@ -1,0 +1,8 @@
+@media (prefers-reduced-motion: reduce) {
+  /* The global duration override must not accelerate infinite animations. */
+  *,
+  *::before,
+  *::after {
+    animation-iteration-count: 1 !important;
+  }
+}
